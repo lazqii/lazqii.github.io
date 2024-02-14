@@ -18,9 +18,13 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('halo');
+    return view('home');
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        "name" => "GILANG RIZQI RAMADHAN",
+        "email" => "gilangrizqi2016@gmail.com",
+        "image" => "img/profil.jpg"
+    ]);
 });
