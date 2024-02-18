@@ -18,11 +18,14 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        "tittle" => "Home"
+    ]);
 });
 
 Route::get('/about', function () {
     return view('about', [
+        "tittle" => "About",
         "name" => "GILANG RIZQI RAMADHAN",
         "email" => "gilangrizqi2016@gmail.com",
         "image" => "img/profil.jpg"

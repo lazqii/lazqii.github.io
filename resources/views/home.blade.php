@@ -11,8 +11,8 @@
     <div class="carousel-item active">
       <img src="img/rumah1.png" class="d-block w-100" alt="Rumah mewah">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Rumah Impian</h5>
-        <p>Rancang rumah impian anda</p>
+        <h5>Type Rumah</h5>
+        <p></p>
       </div>
     </div>
     <div class="carousel-item">
@@ -39,7 +39,40 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-    <h1>Halaman Home</h1>
+<div>
+    <ul class="nav nav-underline">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">All</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Living Room</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Family Room</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Dining Room</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Bath Room</a>
+        </li>
+    </ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class = "d-flex justify-content-center"> 
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
 
 @endsection
